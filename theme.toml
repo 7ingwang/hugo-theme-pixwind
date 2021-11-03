@@ -1,0 +1,18 @@
+name = "pixwind"
+license = ""
+licenselink = ""
+description = ""
+homepage = "https://pixwind.com"
+tags = ["blog"]
+features = ["dark mode", "grid view"]
+min_version = "0.65.0"
+
+[author]
+    name = "Terry"
+    homepage = "https://terry.wang/"
+
+# If porting an existing theme
+[original]
+    author = "The New Dynamic"
+    homepage = "https://www.thenewdynamic.com/"
+    repo = "https://github.com/forestryio/hugo-theme-novela"

@@ -1,0 +1,29 @@
+title = "pixwind"
+baseURL = "https://example.com"
+languageCode = "en-us"
+theme = "pixwind"
+
+# Posts pagination
+paginate = "5"
+
+
+# Menu config
+[[menu.main]]
+  identifier = "blog"
+  # you can add extra information before the name (HTML format is supported), such as icons
+  pre = ""
+  # you can add extra information after the name (HTML format is supported), such as icons
+  name = "Blog"
+  url = "/blog/"
+  # title will be shown when you hover on this menu link.
+  title = "Blog"
+  weight = 1
+
+[[menu.main]]
+  identifier = "about"
+  pre = ""
+  name = "About"
+  url = "/about/"
+  title = "About"
+  weight = 2
+    
